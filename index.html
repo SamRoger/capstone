@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Capstone</title>
+		<link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Katibeh" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Averia+Libre" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+		<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<div id="pageContainer">
+
+
+	    	<div class="wrong"></div>
+			<div class="tries animated"></div>
+			<div class="try animated"></div>
+
+
+			<div class="guess-container">
+				<input id="guessInput" type="text" placeholder="Guess a letter!" maxlength="1">
+				<div class="alignType" id="guessBtn">Type A Letter!</div>
+			</div>
+
+			<div class="board-container">
+				<div id="board"></div>
+			</div>
+
+	<div id="myModal" class="modal fade">
+		<h1 class="play">WELCOME TO HANGMAN!</h1>
+		<p>RULES ARE SIMPLE!</p>
+		<ul>
+			<li>Type A Letter And Press Enter</li>
+			<li>You're Given 5 Tries</li>
+			<li>Click Anywhere On This Box To Play!</li>
+		</ul>
+    </div>
+
+	<div id="pickLetter" class="modal zoomIn">
+	<h1 id="letter"> Type A Letter!</h1>
+	</div>
+
+
+<div id="game" class="modal fade">
+	<h1 class="gameOver animated flipInX">GAME OVER!!!!!</h1>
+	<img src="http://oppmerksombevegelse.no/wp-content/uploads/2014/07/crying-cute-baby-image-collections-14.jpg">
+</div>
+
+
+<div class="tryModal modal fade">
+	<h1 class="wrongLetterHeader animated fadeIn">There Is No "<span class="wrongLetter"></span>"</h1>
+	<span class="triesRemaing">Tries Remaining: <span class="numberTries animated pulse"></span></span>
+</div>
+
+<div class="lastChance modal fade lastChance">
+	<h1><img src="http://blog.anytimecollect.com/wp-content/uploads/2015/04/notice.png" width="400" class="animated tada lastChance"></h1>
+</div>
+
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+		<script type="text/javascript" src="assets/js/main.js"></script>
+</div>
+	</body>
+</html>
