@@ -21,7 +21,6 @@
 }
 
 body {
-	background-image: url("https://i.ytimg.com/vi/3hGK4MJrKys/maxresdefault.jpg");
 }
 
 .word {
@@ -48,10 +47,7 @@ body {
 
 }
 
-* {
-	margin: 3px;
-	border-radius: 10px;
-}
+
 
 .play {
 	position: relative;
