@@ -17,7 +17,7 @@ $(document).ready(function() {
 	triesRemaining = 6
 	var guessInput = $("#guessInput");
 	guessInput.focus();
-	var phrases = ["try to guess this phrase", "javascript", "coding can be challenging"];
+	var phrases = ["i love brittanee", "try to guess this phrase", "javascript", "coding can be challenging"];
 	var phrase = phrases[Math.floor(Math.random()*phrases.length)];
 	var splitPhrase = phrase.split(" ");
 
